@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;  
+  float: left;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#content {
+  width:480px;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 16pt;
+  background-color: #eeeeee;
+}
+
+#title {
+  background-color: #FFFB00;
+  text-align: center;
+  margin: 5px;
+}
+
+#portrait img {
+  height: 90px;
+  display: block;
+  float: left;
+   display: block;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  margin: 5px;
+}
+
+.choice {
+  color:white;
+  background-color: black;
+  text-align: center;
+  margin: 5px;
+  height: 50px;
+}
+
+.choice-option a {
+  font-size: 15pt;
+  display: block;
+  color:white;
+  background-color: #0D0099;
+  text-align: center;
+  margin: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-style: solid;
+  border-color: black;
+}
+
+.party-member {
+  display: block;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  margin: 5px;
+  height: 90px;
+}
+
+.party-member img {
+  display: block;
+  float: left;
+  height: 90px;
+}
+
+.char-name {
+  text-align: center;
+  color:white;
+  background-color: black;
+}
+
+.char-stats {
+  text-align: center; 
+}
+
+.quest {
+  display: block;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  margin: 5px;
+  text-align: center;
+}
+
+.quest-name {
+  text-align: center;
+  color:white;
+  background-color: black;
+}
+
+.meter { 
+  margin:5px;
+  height: 50px;  /* Can be anything */
+  position: relative;
+  background: #555;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+  box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+     -webkit-border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+         -moz-border-radius-topright: 8px;
+      -moz-border-radius-bottomright: 8px;
+             border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+      -webkit-border-top-left-radius: 20px;
+   -webkit-border-bottom-left-radius: 20px;
+          -moz-border-radius-topleft: 20px;
+       -moz-border-radius-bottomleft: 20px;
+              border-top-left-radius: 20px;
+           border-bottom-left-radius: 20px;
+  background-color: rgb(43,194,83);
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(43,194,83)),
+    color-stop(1, rgb(84,240,84))
+   );
+  background-image: -webkit-linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+   );
+  background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+   );
+  background-image: -ms-linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+   );
+  background-image: -o-linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+   );
+  -webkit-box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  -moz-box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
